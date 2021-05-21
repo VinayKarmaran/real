@@ -1,0 +1,51 @@
+{
+  "name": "real",
+  "version": "0.1.0",
+  "private": true,
+  "watch": {
+    "build": {
+      "patterns": [
+        "src",
+        "test"
+      ],
+      "extensions": "js,vue"
+    }
+  },
+  "scripts": {
+    "serve": "vue-cli-service serve",
+    "build": "vue-cli-service build",
+    "watch": "npm-watch"
+  },
+  "dependencies": {
+    "connect-history-api-fallback": "^1.6.0",
+    "core-js": "^3.6.5",
+    "css-loader": "^5.2.4",
+    "express": "^4.17.1",
+    "express-session": "^1.17.1",
+    "mongoose": "^5.12.5",
+    "morgan": "^1.10.0",
+    "nodemon": "^2.0.7",
+    "npm-watch": "^0.9.0",
+    "path": "^0.12.7",
+    "serve-static": "^1.14.1",
+    "socket.io": "^4.1.2",
+    "socket.io-client": "^4.1.2",
+    "vue": "^3.0.0",
+    "vue-append": "^2.0.1",
+    "vue-router": "^4.0.0-0",
+    "watch": "^1.0.2"
+  },
+  "devDependencies": {
+    "@vue/cli-plugin-babel": "~4.5.0",
+    "@vue/cli-plugin-router": "~4.5.0",
+    "@vue/cli-service": "~4.5.0",
+    "@vue/compiler-sfc": "^3.0.0",
+    "node-sass": "^4.12.0",
+    "sass-loader": "^8.0.2"
+  },
+  "browserslist": [
+    "> 1%",
+    "last 2 versions",
+    "not dead"
+  ]
+}
